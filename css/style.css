@@ -55,20 +55,20 @@ a  {
     color: #e36c68;
     text-decoration: none;
     display: flex;
-    justify-content: right;
     align-items: center;
     height: 500px;
     
 }
+
 #menu2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
     color:#575726;
     text-decoration: none;
     display: flex;
-   
     align-items: center;
     height: 300px;
+    left: 60%;
 }
 
 #menu3 {
@@ -77,9 +77,9 @@ a  {
     color:#e6a03e;
     text-decoration: none;
     display: flex;
-  
     align-items:center;
     height: 300px;
     position: absolute;
     margin: 50px;
+    left: 72%;
 }
