@@ -1,0 +1,101 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+z-index: 5;
+}
+
+body {
+
+    background-image: url(../img/forsidekopi.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.right {
+
+
+}
+
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 350px;
+    margin-bottom: 0.1rem;
+    padding: 500px;
+    color: #575726;
+} 
+
+
+  .tekst-kasse {
+    color: #e36c68;
+    font-family: bodoni;
+    font-size: 40px;
+    padding: 30px; /* Legger til innvendig polstring */
+    width: 350px; /* Angir bredden på kassen */
+   position: absolute;
+   top:70%;
+   left: 20%;
+  }
+    
+    
+
+/*Styling af mine menuer*/
+a  {
+    color: #e36c68;
+}
+
+#menu1 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: #e36c68;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 500px;
+    
+}
+#menu2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color:#575726;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 300px;
+}
+
+#menu3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color:#e6a03e;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    height: 300px;
+    position: absolute;
+    margin: 50px;
+}
+
+
+    img {
+
+        position: absolute;
+        width: 50%;
+        top: 0;
+        right: 0;
+        z-index: 1;
+
+    }   

@@ -1,0 +1,104 @@
+body{
+   
+}
+
+
+.container {
+    position: absolute;
+}
+
+
+h1 {
+    font-size: 8rem;
+    position: relative;
+    top: 35rem;
+    left: 10rem;
+    text-align: left;
+    background: transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    padding-left: 24%;
+
+    position: relative;
+    top: 0rem;
+    left: 8rem;
+    text-align: left;
+    background: transparent;
+    font-family: impact;
+    line-height: 125px;
+    padding-left: 50%;
+    color: #e36c68;
+}
+
+img {
+    width: 150%;
+    margin-top: -75%;
+}
+
+h2 {
+
+    margin-right: 100%;
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-end; /* Justerer innholdet til høyre */
+  }
+  
+  #skrald {
+    width: 500px;
+    align-self: flex-end; /* Justerer bildet til høyre */
+    margin-bottom: -15%;
+    margin-right: 8%;
+    
+  }
+  
+
+  .container3 {
+    display: flex;
+    justify-content: flex-end; /* Justerer innholdet til høyre */
+  }
+  
+
+  #stol {
+    width: 500px;
+    align-self: flex-end; /* Justerer bildet til høyre */
+    margin-bottom: -25%;
+    margin-right: 35%;
+  }
+
+
+.container4 {
+display: flex;
+justify-content: flex-end;
+
+}
+  .tekst-kasse {
+    color: #e36c68;
+    font-family: bodoni;
+    font-size: 30px;
+    padding: 30px; /* Legger til innvendig polstring */
+    width: 350px; /* Angir bredden på kassen */
+   position: absolute;
+   top:60%;
+   left: 50%;
+  }
+   
+
+  
+.container5 {
+    display: flex;
+    justify-content: flex-end;
+    
+    }
+      .tekst-kasse2 {
+        color: #e36c68;
+        font-family: bodoni;
+        font-size: 30px;
+        padding: 30px; /* Legger til innvendig polstring */
+        width: 350px; /* Angir bredden på kassen */
+       position: absolute;
+       top:40%;
+       left: 75%;
+      }
+       

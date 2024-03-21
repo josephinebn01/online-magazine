@@ -1,0 +1,47 @@
+#rød {
+width: 700px;
+
+}
+
+#chairs {
+width: 700px;
+
+}
+
+#table {
+width: 750px;
+
+}
+
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 300px;
+color: #e6a03e;
+
+}
+
+h2 {
+font-size: 35px;
+color: #e6a03e;
+
+}
+
+.tilmeldingsknap {
+    background-color:#e6a03e; 
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: 50%;
+
+    position: absolute;
+    bottom: 70px;
+    left: 10%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,79 @@
+
+h1 {
+    font-size: 200px;
+    color: #30449b;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 200px; 
+    margin-top: 0px;
+    }
+
+.brodtekst {
+
+    color:#575726;
+    font-size: 20px;
+
+}
+
+
+
+
+h3 {
+font-family: bodoni;
+font-size: 50px;
+color: #575726;
+display: flex;
+position: relative;
+margin-left: 0px;
+padding-top: -1px;
+
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50vh; 
+}
+
+.container img {
+    width: 100;
+    max-width: 100%; /* Just for demonstration purpose */
+    height: auto;
+    position:absolute;
+        width: 50%;
+        top: 0;
+        right: 0;
+        z-index: 1;
+}
+
+#thomas {
+display: flex;
+margin-left: 20%;
+margin-right: 53%;
+width: 500px;
+position: relative;
+top: -240%;
+}
+
+.tilmeldingsknap {
+    background-color:#575726; 
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: 50%;
+
+    position: absolute;
+    bottom: 70px;
+    left: 40%;
+    transform: translateX(-50%);
+}
