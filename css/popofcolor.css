@@ -9,10 +9,8 @@ h1 {
     }
 
 .brodtekst {
-
     color:#575726;
     font-size: 20px;
-
 }
 
 
@@ -43,10 +41,10 @@ padding-top: -1px;
     max-width: 100%; /* Just for demonstration purpose */
     height: auto;
     position:absolute;
-        width: 50%;
-        top: 0;
-        right: 0;
-        z-index: 1;
+    width: 50%;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
 
 #thomas {
@@ -64,14 +62,11 @@ top: -240%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     padding: 15px 32px;
-    text-align: center;
     text-decoration: none;
-    display: flex;
     font-size: 25px;
     cursor: pointer;
     border-radius: 8px;
     margin-right: 50%;
-
     position: absolute;
     bottom: 70px;
     left: 40%;

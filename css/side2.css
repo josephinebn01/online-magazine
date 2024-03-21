@@ -2,19 +2,19 @@ body{
     width: 100%;
     min-height: 100%;
     display: flex;
-    flex-direction: row;
 }
 
 .left {
     display: flex;
     flex-direction: column;
     width: 50%;
-    
 }
+
 .headline {
 width: 100%;
 height: 50%;
 }
+
 .brodtekst {
 width: 100%;
 height: 50%;
@@ -70,29 +70,23 @@ max-height: 50vh;
 
 }
 
-
+/*Jeg styler mine knapper*/
 
 #pop {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
     color:ghostwhite;
     text-decoration:underline;
-    justify-content: right;
-    align-items:center;
     height: 300px;
     position: absolute;
     margin-top: -1000px;
-
 }
 
 #chairs {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
     color:#575726;
-  text-decoration: underline;
-    
-    justify-content: right;
-    align-items:center;
+    text-decoration: underline;
     height: 300px;
     position: absolute;
     margin-top: -350px;
@@ -103,33 +97,29 @@ max-height: 50vh;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
     color: #e6a03e;
-  text-decoration: underline;
-
-    justify-content: right;
-    align-items:center;
+    text-decoration: underline;
     height: 300px;
-    position: absolute;
     margin-top: -350px;
     position: absolute;
-       top:105%;
-       left: 77%;
+    top:105%;
+    left: 77%;
 }
 
 #random {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
     color:#e36c68;
-  text-decoration: underline;
-    justify-content: right;
-    align-items:center;
+    text-decoration: underline;
     height: 300px;
-    position: absolute;
     margin-top: -350px;
     position: absolute;
-       top:55%;
-       left: 83%;
+    top:55%;
+    left: 83%;
 }
     
+
+/*Jeg har prøvet at fjerne prikkerne*/
+
 a {
 text-decoration: none;
 
