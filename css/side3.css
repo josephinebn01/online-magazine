@@ -34,14 +34,11 @@ color: #e6a03e;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: flex;
     font-size: 50px;
     cursor: pointer;
-    border-radius: 8px;
     margin-right: 50%;
-
     position: absolute;
     bottom: 70px;
     left: 10%;
-    transform: translateX(-50%);
+    
 }
